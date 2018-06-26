@@ -72,6 +72,7 @@ public class Mcdonalds {
 			System.out.println("請輸入數量:");
 			int a = scanner.nextInt();
 			while (number != "q") {
+				
 				switch (number) {
 				case "1":
 					System.out.println(list1.get(1) + a + "份");
